@@ -1,0 +1,5 @@
+timestamp
+title
+Your post content.
+Newlines will be respected
+URI like http://example.com will be converted in clicakble links

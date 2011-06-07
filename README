@@ -49,9 +49,7 @@ thoughts.html : is the html
 
 thoughts.css : is the relative CSS ( by default must be located in /css )
 
-xtractor.js : extracts the content from the xml db ( by default must be located in /js )
-
-write_out.js : you know ( by default must be located in /js )
+b4t.js : extracts and writes out the posts from the xml db ( by default must be located in /js )
 
 post_db.xml : Yes, actually this file is both client and server side. Just create two copies: one on your local pc and one in the same website directory of thoughts.html .
 When you write a new post, update the online version of the file with the local version.

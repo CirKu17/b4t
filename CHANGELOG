@@ -1,0 +1,6 @@
+b4t v2.0b :
+
+* b4t.php, b4t.css : moved to thoughts.html and thoughts.css           
+    Completely moved from xhtml4 + php to html5 + jquery
+
+* post.tt : modified a little to make the xml more readable

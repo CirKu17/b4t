@@ -1,0 +1,32 @@
+*{
+	margin:0px;
+	paddng:0px;
+	background-color: black;
+	background-image:url('/images/circuit.jpg');
+	color: white;
+	font-family: monospace,terminus,sans serif;
+
+}
+	#page-wrap{
+		padding-top:20px;
+		padding-left:20px;
+		}
+		h1{
+			margin-bottom:10px;
+		}
+		.items a,.items a:active,.items a:link,.items a:visited{
+		font-size:1em;
+			font-family: monospace,terminus,sans serif;
+			color:#3300CC;
+			text-decoration:underline;
+			margin-top:10px;
+		}
+		.items a:hover{
+			text-decoration:none;	
+		}
+		a:link, a:visited,  a:active, a:hover {
+			text-decoration: none;
+			color: #666666;
+			font-family: free sans, courier new, terminus;
+			font-size: 10px;
+		}

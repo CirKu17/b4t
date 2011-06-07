@@ -1,0 +1,7 @@
+	<post id="[% timestamp %]">
+		<title>[% title %]</title>
+		<content>
+		[% content %]
+		</content>
+	</post>
+
