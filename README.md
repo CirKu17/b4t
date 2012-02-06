@@ -26,27 +26,27 @@ so be sure they're installed
 Files
 ------
 
-Client-side:
+#### Client-side:
 
-* post.txt` or thenameyouwant : is the post text file you write and pass to the script.
+* _post.txt_ or thenameyouwant : is the post text file you write and pass to the script.
 
-* post.tt : is the Template Toolkit file ( if you don't know what it means visit http://template-toolkit.org/ or http://search.cpan.org/~abw/Template-Toolkit-2.22/lib/Template.pm )
+* _post.tt_ : is the [Template Toolkit](http://template-toolkit.org/) file
 
-* post.xml : is the single post xml
+* _post.xml_ : is the single post xml
 
-* post.pl : does the magic
+* _post.pl_ : does the magic
 
-* post_db.xml : is the xml database file containing your blog posts
+* _post_db.xml_ : is the xml database file containing your blog posts
 
-Server-side:
+#### Server-side:
 
-* thoughts.html : is the html
+* _thoughts.html_ : is the html
 
-* thoughts.css : is the relative CSS ( by default must be located in /css )
+* _thoughts.css_ : is the relative CSS ( by default must be located in /css )
 
-* b4t.js : extracts and writes out the posts from the xml db ( by default must be located in /js )
+* _b4t.js_ : extracts and writes out the posts from the xml db ( by default must be located in /js )
 
-* post_db.xml : Yes, actually this file is both client and server side. Just create two copies: one on your local pc and one in the same website directory of thoughts.html .
+* _post_db.xml_. : Yes, actually this file is both client and server side. Just create two copies: one on your local pc and one in the same website directory of thoughts.html .
 When you write a new post, update the online version of the file with the local version.
 
 
