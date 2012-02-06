@@ -1,9 +1,6 @@
 
-b4t ( v2.0b )
-a minimal Blog 4 minimal Thoughts
+b4t, a minimal Blog 4 minimal Thoughts
 ===================================
-releasd under GPLv3 (see LICENSE)
-coded by CirKu17 (CirKu17@gmail.com)
 
 
 b4t is a lightweight blog cms developed in perl and based on xml, aimed to quickly manage blog posts using just a text editor and one or two shell commands.
@@ -22,14 +19,14 @@ b4t is designed to be used in the most flexible way possible :
 Just copy the server-side files to your website. (Refer to Files section)
 
 The perl script uses the following modules:
-- Regexp::Common
-- Template
-so be sure they are installed
+* Regexp::Common
+* Template
+so be sure they're installed
 
 Files
 ------
 
-- Client-side:
+Client-side:
 
 * post.txt` or thenameyouwant : is the post text file you write and pass to the script.
 
@@ -41,15 +38,15 @@ Files
 
 * post_db.xml : is the xml database file containing your blog posts
 
-- Server-side:
+Server-side:
 
 * thoughts.html : is the html
 
 * thoughts.css : is the relative CSS ( by default must be located in /css )
 
-b4t.js : extracts and writes out the posts from the xml db ( by default must be located in /js )
+* b4t.js : extracts and writes out the posts from the xml db ( by default must be located in /js )
 
-post_db.xml : Yes, actually this file is both client and server side. Just create two copies: one on your local pc and one in the same website directory of thoughts.html .
+* post_db.xml : Yes, actually this file is both client and server side. Just create two copies: one on your local pc and one in the same website directory of thoughts.html .
 When you write a new post, update the online version of the file with the local version.
 
 
@@ -60,7 +57,7 @@ Write a post
 
 Writing a post is really simple: just create a new text file and fill it like this :
 
-```yaml
+```
 fill the first line with the timestamp of the blog post
 fill the second line with your title
 write the content in the rest of the file as you like.
@@ -70,7 +67,7 @@ Urls will be converted as clickable, and newlines are respected
 ```
 
 After that, you have to launch the post.pl script passing the filename of your post file as an argument :
-```bash
+```
 $ perl post.pl post.txt
 ```
 The script parses your txt post file, passes it through a template, generates the single post' xml and adds it in the posts database.
